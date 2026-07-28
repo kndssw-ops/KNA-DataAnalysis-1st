@@ -141,5 +141,3 @@ a = int(input("a의점수: "))
 b = int(input("b의점수: "))
 c = int(input("c의점수: "))
 print("셋의 평균점수는?: ", (a + b + c) / 3)
-
-notice = """설비 점검 안내

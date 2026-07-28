@@ -80,9 +80,44 @@
 
 # 작은 오차 해결법
 # roun() 사용해서 반올림
-print(round(0.1 + 0.8, 2))  # 소수 둘쨰 자리를 반올림해서 0.9 출력
+# print(round(0.1 + 0.8, 2))  # 소수 둘쨰 자리를 반올림해서 0.9 출력
 
-# str과 int/float은 덧셈 불가
-# print("123" + 456) #TypeError 발생
-print(10 / 2)  # 5.0 (나눗셈은 결과가 딱 떨어져도 무조건 float)
-print(type(10 / 2))  # <class 'float'>
+# # str과 int/float은 덧셈 불가
+# # print("123" + 456) #TypeError 발생
+# print(10 / 2)  # 5.0 (나눗셈은 결과가 딱 떨어져도 무조건 float)
+# print(type(10 / 2))  # <class 'float'>
+
+# count = 1
+# temp = 0.5
+# name = "더운날씨"
+# is_ok = True
+# print(count, temp, name, is_ok)  # 1 0.5 더운날씨 True
+
+# print(type(count)) # <class 'int'>
+# print(type(temp)) # <class 'float'>
+# print(type(name)) # <class 'str'>
+# print(type(is_ok)) # <class 'bool'>
+# print(type(100))  # <class 'int'>
+# print(type(100.0)) # <class 'float'>
+# print(type("100")) # <class 'str'>
+
+# print(1 + 2)
+# print("1" + "2")
+# print("11" + "22")
+# #숫자끼리는 계산된 값이 나오고, 글자 숫자끼리는 이어붙어서 입력됨
+
+# print(3 > 2)  # True
+# print(5 == 5)  # True
+# print(type(3 > 2)) # <class 'bool'>
+
+# count = 1
+# print(type(count))  # <class 'int'>
+# count = 0.5
+# print(type(count))  # <class 'float'>
+# count = "0.5"
+# print(type(count)) # <class 'str'>
+
+# device_temp = 0.5 # float
+# check_count = 1 # int
+# device_name = "더운날씨" # str
+# is_normal = True # bool
