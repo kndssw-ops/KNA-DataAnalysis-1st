@@ -480,14 +480,36 @@
 # p = n.split("/")
 # print("-".join(p)) # 2025-01-15
 
-r = "1, NORMAL,25.3"
-p = r.split(",")
-s = p[1].strip().lower()
-print(s)  # nomal
+# r = "1, NORMAL,25.3"
+# p = r.split(",")
+# s = p[1].strip().lower()
+# print(s)  # nomal
 
-# =======================
-# f-string
+# # =======================
+# # f-string
 
-name = "PUMP_A"
-temp = 87
-print(f"설비 {name}, 온도 {temp}도")
+# name = "PUMP_A"
+# temp = 87
+# print(f"설비 {name}, 온도 {temp}도")
+# 따옴표 밖애 f작성하기
+# 변수명은 꼭 {중괄호}에 감싸기
+
+# f-string 연산
+# hour = 8
+
+# # 우리는 하루에 8시간 수업을 듣고, 이는 480분입니다
+
+# print(f"우리는 하루에 {hour}시간 수업을 듣고, 이는 {hour*60}분입니다")
+a = 86
+b = 87
+c = 88
+print(f"평균{(a + b + c) / 3}")
+
+r = 87.456
+print(f"{r:.1f}")
+print(f"{r:.2f}")
+
+str = "5, sensor_2, WARNING, 0.78912"
+p = str.strip().split(",") 
+
+print(f"[센서 {p[1]}] 상태 {p[2].lower()}, 측정값 {float(p[-1]):.2f}")
